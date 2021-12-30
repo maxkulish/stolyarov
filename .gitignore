@@ -3,6 +3,8 @@
 # Prerequisites
 *.d
 
+# Pascal
+
 # Compiled Object files
 *.slo
 *.lo
