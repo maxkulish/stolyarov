@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.go2": "go",
+        "*.go": "go",
+        "algorithm": "c",
+        "chrono": "c",
+        "limits": "c",
+        "random": "c",
+        "ratio": "c",
+        "semaphore": "c",
+        "sstream": "c"
+    }
+}
