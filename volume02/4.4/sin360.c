@@ -23,3 +23,14 @@ int main()
     fclose(f);
     return 0;
 }
+
+void intfilesum(FILE *f, int *sum, int *count)
+{
+    int n;
+    *count = 0;
+    *sum = 0;
+    while (fscanf(f, "%d", &n) == 1) {
+        *sum += n;
+        (*count)++;
+    }
+}
